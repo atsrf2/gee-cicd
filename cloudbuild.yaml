@@ -11,7 +11,7 @@ steps:
   id: 'Push Docker Image'
 
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'us-central1-docker.pkg.dev/pure-feat-417019/flask-image', './app2' ]
+  args: ['build', '-t', 'us-central1-docker.pkg.dev/pure-feat-417019/gke-repo/flask-image', './app2' ]
   id: 'Build Docker Image2'
 
   # images:
