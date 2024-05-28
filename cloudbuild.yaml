@@ -1,3 +1,5 @@
+   # building docker images and pusing to artifact registery
+
 steps:
 - name: 'gcr.io/cloud-builders/docker'
   args: ['build', '-t', 'us-central1-docker.pkg.dev/pure-feat-417019/gke-repo/quickstart-image', './app' ]
