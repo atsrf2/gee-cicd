@@ -6,4 +6,4 @@ metadata:
   labels: {}
 description: dev
 gke:
-  cluster: projects/pure-feat-417019/locations/us-central1-c/clusters/cluster-1
+  cluster: projects/pure-feat-417019/locations/us-central1/clusters/cluster-1
