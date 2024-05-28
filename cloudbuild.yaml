@@ -11,14 +11,14 @@ steps:
   id: 'Push Docker Image'
 
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'us-central1-docker.pkg.dev/pure-feat-417019/gke-repo/quickstart-image', './app2' ]
+  args: ['build', '-t', 'us-central1-docker.pkg.dev/pure-feat-417019/gke-repo/flask-image', './app2' ]
   id: 'Build Docker Image2'
 
   # images:
   # - 'us-central1-docker.pkg.dev/pure-feat-417019/gke-repo/quickstart-image'
 
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'us-central1-docker.pkg.dev/pure-feat-417019/gke-repo/quickstart-image' ]
+  args: ['push', 'us-central1-docker.pkg.dev/pure-feat-417019/gke-repo/flask-image' ]
   id: 'Push Docker Image2'
 
 
